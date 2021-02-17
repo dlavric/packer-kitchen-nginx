@@ -1,7 +1,0 @@
----
-hostname: 127.0.0.1
-port: '2202'
-username: vagrant
-ssh_key: "/Users/daniela/Downloads/dlavric/packer-kitchen-nginx/.kitchen/kitchen-vagrant/default-vbox-xenial64/.vagrant/machines/default/virtualbox/private_key"
-last_action: verify
-last_error:
