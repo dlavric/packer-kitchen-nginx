@@ -1,0 +1,10 @@
+output-xenial64-vbox
+packer_cache
+*.box
+Vagrantfile
+.bundle
+vendor
+.ruby-version
+.kitchen
+Gemfile.lock
+
