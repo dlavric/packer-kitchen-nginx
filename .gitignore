@@ -6,3 +6,4 @@ Vagrantfile
 vendor
 .ruby-version
 Gemfile.lock
+.kitchen
