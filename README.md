@@ -44,25 +44,26 @@ $ bundle install
 $ git clone git@github.com:dlavric/packer-nginx64.git
 ```
 
-- Go to the directory where the repo is stored
+- Go to the directory where the repo is stored:
 ```shell
 $ cd packer-nginx64
 ```
 
-- Start Packer
+- Start Packer:
 ```shell
 $ packer build template.json
 ```
 
-- Add the box to Vagrant 
+- Add the box to Vagrant: 
 ```shell
 $ vagrant box add --name xenial64 xenial64-vbox.box
 ```
 
-- Initialize Vagrant with the local box created with Packer
+- Initialize Vagrant with the local box created with Packer:
 ```shell
 $ vagrant init -m xenial64
 ```
+
 - Start Vagrant
 ```shell
 $ vagrant up
@@ -78,7 +79,7 @@ $ bundle exec kitchen converge
 $ bundle exec kitchen list
 ```
 
-- Deploy the test to check if nginx is installed on the xenial64 box
+- Deploy the test to check if nginx is installed on the xenial64 box:
 ```shell
 $ bundle exec kitchen verify
 ```
